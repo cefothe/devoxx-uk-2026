@@ -1,0 +1,16 @@
+# Build output
+target/
+
+# Maven wrapper
+.mvn/
+
+# Claude Code
+.claude/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml

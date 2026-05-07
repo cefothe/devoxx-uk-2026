@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.devoxx.lowlatency</groupId>
+        <artifactId>devoxx-uk-2026-low-latency-java</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>microsecond-latency-examples</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Achieving Microsecond Latencies with Java — Pattern Examples</name>
+    <description>
+        Slide-readable, runnable demos of every pattern in the Devoxx UK 2026 talk
+        "Achieving Microsecond Latencies with Java".
+        Each example is a single-file main() that the audience can clone, modify, and replay.
+        Numerical claims live in the sibling benchmarks module; this module is for
+        showing the technique, not measuring it.
+    </description>
+
+    <dependencies>
+        <!-- LMAX Disruptor -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+        </dependency>
+
+        <!-- Chronicle Queue / Map / Bytes -->
+        <dependency>
+            <groupId>net.openhft</groupId>
+            <artifactId>chronicle-queue</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.openhft</groupId>
+            <artifactId>chronicle-map</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.openhft</groupId>
+            <artifactId>chronicle-bytes</artifactId>
+        </dependency>
+
+        <!-- Agrona -->
+        <dependency>
+            <groupId>org.agrona</groupId>
+            <artifactId>agrona</artifactId>
+        </dependency>
+
+        <!-- OpenHFT Java-Thread-Affinity -->
+        <dependency>
+            <groupId>net.openhft</groupId>
+            <artifactId>affinity</artifactId>
+        </dependency>
+
+        <!--
+          Chronicle Map's runtime bytecode generator invokes javac and the generated
+          source references org.jetbrains.annotations.NotNull. javac needs this on
+          the classpath; Chronicle Map declares it as 'provided', so we re-declare it
+          explicitly here for the exec:java demo.
+        -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.1.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <!--
+                  Run any example with:
+                    mvn -pl examples exec:java -Dexec.mainClass=com.devoxx.lowlatency.examples.<package>.<Class>
+                  e.g.
+                    mvn -pl examples exec:java -Dexec.mainClass=com.devoxx.lowlatency.examples.capstone.MiniExchange
+                  Module-system access flags required by Chronicle Queue/Map are set
+                  in ../.mvn/jvm.config and read by Maven at startup.
+                -->
+            </plugin>
+        </plugins>
+    </build>
+</project>

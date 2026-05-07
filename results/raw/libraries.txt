@@ -1,0 +1,1993 @@
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.agronaManyToOneRingBuffer
+
+# Run progress: 0.00% complete, ETA 00:05:00
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 205.725 ns/op
+# Warmup Iteration   2: 173.118 ns/op
+# Warmup Iteration   3: 180.638 ns/op
+# Warmup Iteration   4: 165.144 ns/op
+# Warmup Iteration   5: 164.796 ns/op
+Iteration   1: 172.388 ns/op
+Iteration   2: 168.649 ns/op
+Iteration   3: 167.003 ns/op
+Iteration   4: 175.497 ns/op
+Iteration   5: 171.605 ns/op
+
+# Run progress: 3.33% complete, ETA 00:05:07
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 202.629 ns/op
+# Warmup Iteration   2: 447.532 ns/op
+# Warmup Iteration   3: 179.203 ns/op
+# Warmup Iteration   4: 164.093 ns/op
+# Warmup Iteration   5: 176.169 ns/op
+Iteration   1: 180.886 ns/op
+Iteration   2: 341.598 ns/op
+Iteration   3: 193.283 ns/op
+Iteration   4: 177.140 ns/op
+Iteration   5: 160.107 ns/op
+
+
+Result "com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.agronaManyToOneRingBuffer":
+  190.816 ±(99.9%) 81.216 ns/op [Average]
+  (min, avg, max) = (160.107, 190.816, 341.598), stdev = 53.719
+  CI (99.9%): [109.600, 272.032] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.arrayBlockingQueue
+
+# Run progress: 6.67% complete, ETA 00:04:55
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2450.737 ns/op
+# Warmup Iteration   2: 2469.370 ns/op
+# Warmup Iteration   3: 2380.317 ns/op
+# Warmup Iteration   4: 2780.008 ns/op
+# Warmup Iteration   5: 2905.673 ns/op
+Iteration   1: 2806.828 ns/op
+Iteration   2: 3075.541 ns/op
+Iteration   3: 2531.915 ns/op
+Iteration   4: 2602.929 ns/op
+Iteration   5: 2418.143 ns/op
+
+# Run progress: 10.00% complete, ETA 00:04:45
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2392.944 ns/op
+# Warmup Iteration   2: 2433.464 ns/op
+# Warmup Iteration   3: 2436.141 ns/op
+# Warmup Iteration   4: 2450.509 ns/op
+# Warmup Iteration   5: 2314.105 ns/op
+Iteration   1: 2444.254 ns/op
+Iteration   2: 2309.056 ns/op
+Iteration   3: 3087.924 ns/op
+Iteration   4: 3004.518 ns/op
+Iteration   5: 3054.647 ns/op
+
+
+Result "com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.arrayBlockingQueue":
+  2733.575 ±(99.9%) 463.396 ns/op [Average]
+  (min, avg, max) = (2309.056, 2733.575, 3087.924), stdev = 306.508
+  CI (99.9%): [2270.179, 3196.972] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.chronicleMap
+
+# Run progress: 13.33% complete, ETA 00:04:34
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: <failure>
+
+java.lang.RuntimeException: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:168)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+	at net.openhft.compiler.CachedCompiler.compileFromJava(CachedCompiler.java:121)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:160)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:87)
+	at net.openhft.chronicle.values.ValueModel.createClass(ValueModel.java:327)
+	at net.openhft.chronicle.values.ValueModel.createNativeClass(ValueModel.java:307)
+	at net.openhft.chronicle.values.ValueModel.nativeClass(ValueModel.java:283)
+	at net.openhft.chronicle.values.Values.nativeClassFor(Values.java:91)
+	at net.openhft.chronicle.values.Values.newNativeReference(Values.java:59)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.createGlobalMutableState(VanillaChronicleHash.java:353)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initOwnTransients(VanillaChronicleHash.java:406)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initTransients(VanillaChronicleHash.java:402)
+	at net.openhft.chronicle.map.VanillaChronicleMap.initTransients(VanillaChronicleMap.java:188)
+	at net.openhft.chronicle.map.VanillaChronicleMap.<init>(VanillaChronicleMap.java:118)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.newMap(ChronicleMapBuilder.java:1997)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.createWithoutFile(ChronicleMapBuilder.java:1963)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.create(ChronicleMapBuilder.java:1652)
+	at com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark$ChronicleMapState.setup(ChronicleMapVsConcurrentHashMapBenchmark.java:111)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest._jmh_tryInit_f_chroniclemapstate1_G(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:462)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.chronicleMap_AverageTime(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:172)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:182)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:176)
+	at net.openhft.compiler.MyJavaFileManager.invokeNamedMethodIfAvailable(MyJavaFileManager.java:214)
+	at net.openhft.compiler.MyJavaFileManager.listLocationsForModules(MyJavaFileManager.java:77)
+	at jdk.compiler/com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager.listLocationsForModules(ClientCodeWrapper.java:410)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder$ModuleLocationIterator.hasNext(ModuleFinder.java:139)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.scanModulePath(ModuleFinder.java:295)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.findAllModules(ModuleFinder.java:188)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.getUnnamedModuleCompleter(Modules.java:1469)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.setCompilationUnitModules(Modules.java:485)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.enter(Modules.java:278)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initModules(Modules.java:239)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.initModules(JavaCompiler.java:1047)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:941)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	... 31 more
+
+
+
+# Run progress: 16.67% complete, ETA 00:03:36
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: <failure>
+
+java.lang.RuntimeException: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:168)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+	at net.openhft.compiler.CachedCompiler.compileFromJava(CachedCompiler.java:121)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:160)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:87)
+	at net.openhft.chronicle.values.ValueModel.createClass(ValueModel.java:327)
+	at net.openhft.chronicle.values.ValueModel.createNativeClass(ValueModel.java:307)
+	at net.openhft.chronicle.values.ValueModel.nativeClass(ValueModel.java:283)
+	at net.openhft.chronicle.values.Values.nativeClassFor(Values.java:91)
+	at net.openhft.chronicle.values.Values.newNativeReference(Values.java:59)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.createGlobalMutableState(VanillaChronicleHash.java:353)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initOwnTransients(VanillaChronicleHash.java:406)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initTransients(VanillaChronicleHash.java:402)
+	at net.openhft.chronicle.map.VanillaChronicleMap.initTransients(VanillaChronicleMap.java:188)
+	at net.openhft.chronicle.map.VanillaChronicleMap.<init>(VanillaChronicleMap.java:118)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.newMap(ChronicleMapBuilder.java:1997)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.createWithoutFile(ChronicleMapBuilder.java:1963)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.create(ChronicleMapBuilder.java:1652)
+	at com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark$ChronicleMapState.setup(ChronicleMapVsConcurrentHashMapBenchmark.java:111)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest._jmh_tryInit_f_chroniclemapstate1_G(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:462)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.chronicleMap_AverageTime(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:172)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:182)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:176)
+	at net.openhft.compiler.MyJavaFileManager.invokeNamedMethodIfAvailable(MyJavaFileManager.java:214)
+	at net.openhft.compiler.MyJavaFileManager.listLocationsForModules(MyJavaFileManager.java:77)
+	at jdk.compiler/com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager.listLocationsForModules(ClientCodeWrapper.java:410)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder$ModuleLocationIterator.hasNext(ModuleFinder.java:139)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.scanModulePath(ModuleFinder.java:295)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.findAllModules(ModuleFinder.java:188)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.getUnnamedModuleCompleter(Modules.java:1469)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.setCompilationUnitModules(Modules.java:485)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.enter(Modules.java:278)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initModules(Modules.java:239)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.initModules(JavaCompiler.java:1047)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:941)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	... 31 more
+
+
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap
+
+# Run progress: 20.00% complete, ETA 00:02:56
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 16.800 ns/op
+# Warmup Iteration   2: 19.120 ns/op
+# Warmup Iteration   3: 20.166 ns/op
+# Warmup Iteration   4: 19.827 ns/op
+# Warmup Iteration   5: 17.901 ns/op
+Iteration   1: 18.480 ns/op
+Iteration   2: 18.555 ns/op
+Iteration   3: 21.467 ns/op
+Iteration   4: 29.095 ns/op
+Iteration   5: 17.559 ns/op
+
+# Run progress: 23.33% complete, ETA 00:02:59
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 18.769 ns/op
+# Warmup Iteration   2: 18.157 ns/op
+# Warmup Iteration   3: 17.485 ns/op
+# Warmup Iteration   4: 16.997 ns/op
+# Warmup Iteration   5: 17.600 ns/op
+Iteration   1: 18.931 ns/op
+Iteration   2: 18.460 ns/op
+Iteration   3: 17.548 ns/op
+Iteration   4: 16.392 ns/op
+Iteration   5: 16.866 ns/op
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap":
+  19.335 ±(99.9%) 5.593 ns/op [Average]
+  (min, avg, max) = (16.392, 19.335, 29.095), stdev = 3.700
+  CI (99.9%): [13.742, 24.928] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.chronicleQueueWriteRead
+
+# Run progress: 26.67% complete, ETA 00:03:00
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 190.288 ns/op
+# Warmup Iteration   2: 159.498 ns/op
+# Warmup Iteration   3: 150.030 ns/op
+# Warmup Iteration   4: 162.090 ns/op
+# Warmup Iteration   5: 167.392 ns/op
+Iteration   1: 1343.202 ns/op
+Iteration   2: 175085.405 ns/op
+Iteration   3: 194.634 ns/op
+Iteration   4: 160.605 ns/op
+Iteration   5: 154.287 ns/op
+
+# Run progress: 30.00% complete, ETA 00:03:03
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 160.896 ns/op
+# Warmup Iteration   2: 147.783 ns/op
+# Warmup Iteration   3: 169.928 ns/op
+# Warmup Iteration   4: 169.544 ns/op
+# Warmup Iteration   5: 178.794 ns/op
+Iteration   1: 5166.015 ns/op
+Iteration   2: 666363.673 ns/op
+Iteration   3: 402017.034 ns/op
+Iteration   4: 23049.262 ns/op
+Iteration   5: 40941.172 ns/op
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.chronicleQueueWriteRead":
+  131447.529 ±(99.9%) 343932.174 ns/op [Average]
+  (min, avg, max) = (154.287, 131447.529, 666363.673), stdev = 227489.838
+  CI (99.9%): [≈ 0, 475379.703] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.inMemoryArrayDeque
+
+# Run progress: 33.33% complete, ETA 00:03:14
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 5.005 ns/op
+# Warmup Iteration   2: 5.607 ns/op
+# Warmup Iteration   3: 4.634 ns/op
+# Warmup Iteration   4: 4.545 ns/op
+# Warmup Iteration   5: 4.641 ns/op
+Iteration   1: 4.814 ns/op
+Iteration   2: 6.930 ns/op
+Iteration   3: 5.881 ns/op
+Iteration   4: 4.624 ns/op
+Iteration   5: 6.947 ns/op
+
+# Run progress: 36.67% complete, ETA 00:03:05
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 5.657 ns/op
+# Warmup Iteration   2: 4.540 ns/op
+# Warmup Iteration   3: 4.516 ns/op
+# Warmup Iteration   4: 4.508 ns/op
+# Warmup Iteration   5: 4.526 ns/op
+Iteration   1: 4.546 ns/op
+Iteration   2: 4.533 ns/op
+Iteration   3: 4.478 ns/op
+Iteration   4: 4.480 ns/op
+Iteration   5: 4.486 ns/op
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.inMemoryArrayDeque":
+  5.172 ±(99.9%) 1.546 ns/op [Average]
+  (min, avg, max) = (4.478, 5.172, 6.947), stdev = 1.022
+  CI (99.9%): [3.626, 6.718] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.agronaManyToOneRingBuffer
+
+# Run progress: 40.00% complete, ETA 00:02:57
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 283.465 ±(99.9%) 42.205 ns/op
+# Warmup Iteration   2: 186.086 ±(99.9%) 7.425 ns/op
+# Warmup Iteration   3: 202.383 ±(99.9%) 11.593 ns/op
+# Warmup Iteration   4: 216.565 ±(99.9%) 19.286 ns/op
+# Warmup Iteration   5: 218.467 ±(99.9%) 7.805 ns/op
+Iteration   1: 218.364 ±(99.9%) 8.830 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   417.000 ns/op
+                 p0.99:   657.390 ns/op
+                 p0.999:  7955.384 ns/op
+                 p0.9999: 13307.707 ns/op
+                 p1.00:   20096.000 ns/op
+
+Iteration   2: 260.038 ±(99.9%) 45.085 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   375.000 ns/op
+                 p0.95:   459.000 ns/op
+                 p0.99:   666.000 ns/op
+                 p0.999:  10704.240 ns/op
+                 p0.9999: 78423.027 ns/op
+                 p1.00:   361984.000 ns/op
+
+Iteration   3: 1307.481 ±(99.9%) 683.875 ns/op
+                 p0.00:   42.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   417.000 ns/op
+                 p0.95:   500.000 ns/op
+                 p0.99:   958.200 ns/op
+                 p0.999:  252200.960 ns/op
+                 p0.9999: 2282905.600 ns/op
+                 p1.00:   4096000.000 ns/op
+
+Iteration   4: 234.524 ±(99.9%) 75.626 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   417.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  3646.444 ns/op
+                 p0.9999: 19084.781 ns/op
+                 p1.00:   508416.000 ns/op
+
+Iteration   5: 206.499 ±(99.9%) 18.963 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   375.000 ns/op
+                 p0.99:   584.000 ns/op
+                 p0.999:  1089.480 ns/op
+                 p0.9999: 16019.755 ns/op
+                 p1.00:   127872.000 ns/op
+
+
+# Run progress: 43.33% complete, ETA 00:02:48
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 255.883 ±(99.9%) 44.029 ns/op
+# Warmup Iteration   2: 183.107 ±(99.9%) 4.963 ns/op
+# Warmup Iteration   3: 186.735 ±(99.9%) 4.344 ns/op
+# Warmup Iteration   4: 187.582 ±(99.9%) 3.156 ns/op
+# Warmup Iteration   5: 189.584 ±(99.9%) 3.233 ns/op
+Iteration   1: 199.906 ±(99.9%) 4.374 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   375.000 ns/op
+                 p0.99:   542.000 ns/op
+                 p0.999:  708.629 ns/op
+                 p0.9999: 9915.480 ns/op
+                 p1.00:   21664.000 ns/op
+
+Iteration   2: 186.802 ±(99.9%) 5.629 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   209.000 ns/op
+                 p0.99:   458.000 ns/op
+                 p0.999:  708.623 ns/op
+                 p0.9999: 19457.218 ns/op
+                 p1.00:   27616.000 ns/op
+
+Iteration   3: 192.240 ±(99.9%) 3.569 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   250.000 ns/op
+                 p0.99:   500.000 ns/op
+                 p0.999:  1042.000 ns/op
+                 p0.9999: 9451.849 ns/op
+                 p1.00:   15616.000 ns/op
+
+Iteration   4: 188.806 ±(99.9%) 3.534 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   209.000 ns/op
+                 p0.99:   417.000 ns/op
+                 p0.999:  1046.480 ns/op
+                 p0.9999: 9496.896 ns/op
+                 p1.00:   15280.000 ns/op
+
+Iteration   5: 187.846 ±(99.9%) 3.250 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   209.000 ns/op
+                 p0.99:   458.000 ns/op
+                 p0.999:  669.214 ns/op
+                 p0.9999: 8717.478 ns/op
+                 p1.00:   16608.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.agronaManyToOneRingBuffer":
+  N = 261621
+  mean =    352.996 ±(99.9%) 89.084 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 261606 
+    [ 500000.000, 1000000.000) = 8 
+    [1000000.000, 1500000.000) = 4 
+    [1500000.000, 2000000.000) = 0 
+    [2000000.000, 2500000.000) = 0 
+    [2500000.000, 3000000.000) = 1 
+    [3000000.000, 3500000.000) = 0 
+    [3500000.000, 4000000.000) = 1 
+    [4000000.000, 4500000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =     41.000 ns/op
+     p(50.0000) =    167.000 ns/op
+     p(90.0000) =    209.000 ns/op
+     p(95.0000) =    416.000 ns/op
+     p(99.0000) =    625.000 ns/op
+     p(99.9000) =  12220.096 ns/op
+     p(99.9900) = 297360.794 ns/op
+     p(99.9990) = 3146677.207 ns/op
+     p(99.9999) = 4096000.000 ns/op
+    p(100.0000) = 4096000.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.arrayBlockingQueue
+
+# Run progress: 46.67% complete, ETA 00:02:39
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2813.998 ±(99.9%) 356.243 ns/op
+# Warmup Iteration   2: 3171.995 ±(99.9%) 362.160 ns/op
+# Warmup Iteration   3: 2489.124 ±(99.9%) 90.817 ns/op
+# Warmup Iteration   4: 2447.076 ±(99.9%) 72.446 ns/op
+# Warmup Iteration   5: 2356.322 ±(99.9%) 35.677 ns/op
+Iteration   1: 2419.153 ±(99.9%) 40.329 ns/op
+                 p0.00:   334.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2748.000 ns/op
+                 p0.95:   4536.000 ns/op
+                 p0.99:   11627.040 ns/op
+                 p0.999:  23239.360 ns/op
+                 p0.9999: 54413.696 ns/op
+                 p1.00:   66304.000 ns/op
+
+Iteration   2: 2352.870 ±(99.9%) 36.230 ns/op
+                 p0.00:   375.000 ns/op
+                 p0.50:   1916.000 ns/op
+                 p0.90:   2664.000 ns/op
+                 p0.95:   4120.000 ns/op
+                 p0.99:   10606.720 ns/op
+                 p0.999:  22740.480 ns/op
+                 p0.9999: 49512.960 ns/op
+                 p1.00:   60352.000 ns/op
+
+Iteration   3: 2615.846 ±(99.9%) 232.030 ns/op
+                 p0.00:   375.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   3156.000 ns/op
+                 p0.95:   5080.000 ns/op
+                 p0.99:   12391.040 ns/op
+                 p0.999:  36291.584 ns/op
+                 p0.9999: 128364.339 ns/op
+                 p1.00:   1742848.000 ns/op
+
+Iteration   4: 2966.309 ±(99.9%) 67.155 ns/op
+                 p0.00:   333.000 ns/op
+                 p0.50:   2042.000 ns/op
+                 p0.90:   5208.000 ns/op
+                 p0.95:   6832.000 ns/op
+                 p0.99:   12632.640 ns/op
+                 p0.999:  38390.656 ns/op
+                 p0.9999: 100498.765 ns/op
+                 p1.00:   165376.000 ns/op
+
+Iteration   5: 4179.957 ±(99.9%) 146.459 ns/op
+                 p0.00:   292.000 ns/op
+                 p0.50:   2416.000 ns/op
+                 p0.90:   6832.000 ns/op
+                 p0.95:   8602.400 ns/op
+                 p0.99:   18560.000 ns/op
+                 p0.999:  68941.312 ns/op
+                 p0.9999: 465775.309 ns/op
+                 p1.00:   644096.000 ns/op
+
+
+# Run progress: 50.00% complete, ETA 00:02:30
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2495.187 ±(99.9%) 41.215 ns/op
+# Warmup Iteration   2: 2590.654 ±(99.9%) 125.815 ns/op
+# Warmup Iteration   3: 2338.179 ±(99.9%) 32.858 ns/op
+# Warmup Iteration   4: 2486.976 ±(99.9%) 63.015 ns/op
+# Warmup Iteration   5: 2327.770 ±(99.9%) 31.895 ns/op
+Iteration   1: 2531.434 ±(99.9%) 70.549 ns/op
+                 p0.00:   333.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2956.000 ns/op
+                 p0.95:   4832.000 ns/op
+                 p0.99:   12208.000 ns/op
+                 p0.999:  39692.800 ns/op
+                 p0.9999: 166873.600 ns/op
+                 p1.00:   259328.000 ns/op
+
+Iteration   2: 2320.250 ±(99.9%) 32.288 ns/op
+                 p0.00:   333.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2624.000 ns/op
+                 p0.95:   4080.000 ns/op
+                 p0.99:   9696.960 ns/op
+                 p0.999:  20832.000 ns/op
+                 p0.9999: 45119.514 ns/op
+                 p1.00:   64320.000 ns/op
+
+Iteration   3: 2994.622 ±(99.9%) 125.096 ns/op
+                 p0.00:   333.000 ns/op
+                 p0.50:   2000.000 ns/op
+                 p0.90:   4248.000 ns/op
+                 p0.95:   6288.000 ns/op
+                 p0.99:   18335.680 ns/op
+                 p0.999:  95060.608 ns/op
+                 p0.9999: 188569.139 ns/op
+                 p1.00:   195328.000 ns/op
+
+Iteration   4: 2423.511 ±(99.9%) 40.280 ns/op
+                 p0.00:   375.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2916.000 ns/op
+                 p0.95:   4456.000 ns/op
+                 p0.99:   10624.000 ns/op
+                 p0.999:  22239.616 ns/op
+                 p0.9999: 38815.770 ns/op
+                 p1.00:   160256.000 ns/op
+
+Iteration   5: 3166.681 ±(99.9%) 164.572 ns/op
+                 p0.00:   333.000 ns/op
+                 p0.50:   2000.000 ns/op
+                 p0.90:   4536.000 ns/op
+                 p0.95:   7208.000 ns/op
+                 p0.99:   18293.440 ns/op
+                 p0.999:  69111.552 ns/op
+                 p0.9999: 475630.234 ns/op
+                 p1.00:   547840.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.AgronaRingBufferBenchmark.arrayBlockingQueue":
+  N = 254028
+  mean =   2807.912 ±(99.9%) 36.513 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  125000.000) = 253995 
+    [ 125000.000,  250000.000) = 22 
+    [ 250000.000,  375000.000) = 4 
+    [ 375000.000,  500000.000) = 2 
+    [ 500000.000,  625000.000) = 3 
+    [ 625000.000,  750000.000) = 1 
+    [ 750000.000,  875000.000) = 0 
+    [ 875000.000, 1000000.000) = 0 
+    [1000000.000, 1125000.000) = 0 
+    [1125000.000, 1250000.000) = 0 
+    [1250000.000, 1375000.000) = 0 
+    [1375000.000, 1500000.000) = 0 
+    [1500000.000, 1625000.000) = 0 
+    [1625000.000, 1750000.000) = 1 
+    [1750000.000, 1875000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =    292.000 ns/op
+     p(50.0000) =   2000.000 ns/op
+     p(90.0000) =   4288.000 ns/op
+     p(95.0000) =   6496.000 ns/op
+     p(99.0000) =  12992.000 ns/op
+     p(99.9000) =  43902.144 ns/op
+     p(99.9900) = 156130.304 ns/op
+     p(99.9990) = 596515.901 ns/op
+     p(99.9999) = 1742848.000 ns/op
+    p(100.0000) = 1742848.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.chronicleMap
+
+# Run progress: 53.33% complete, ETA 00:02:20
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: <failure>
+
+java.lang.RuntimeException: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:168)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+	at net.openhft.compiler.CachedCompiler.compileFromJava(CachedCompiler.java:121)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:160)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:87)
+	at net.openhft.chronicle.values.ValueModel.createClass(ValueModel.java:327)
+	at net.openhft.chronicle.values.ValueModel.createNativeClass(ValueModel.java:307)
+	at net.openhft.chronicle.values.ValueModel.nativeClass(ValueModel.java:283)
+	at net.openhft.chronicle.values.Values.nativeClassFor(Values.java:91)
+	at net.openhft.chronicle.values.Values.newNativeReference(Values.java:59)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.createGlobalMutableState(VanillaChronicleHash.java:353)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initOwnTransients(VanillaChronicleHash.java:406)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initTransients(VanillaChronicleHash.java:402)
+	at net.openhft.chronicle.map.VanillaChronicleMap.initTransients(VanillaChronicleMap.java:188)
+	at net.openhft.chronicle.map.VanillaChronicleMap.<init>(VanillaChronicleMap.java:118)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.newMap(ChronicleMapBuilder.java:1997)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.createWithoutFile(ChronicleMapBuilder.java:1963)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.create(ChronicleMapBuilder.java:1652)
+	at com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark$ChronicleMapState.setup(ChronicleMapVsConcurrentHashMapBenchmark.java:111)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest._jmh_tryInit_f_chroniclemapstate1_G(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:462)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.chronicleMap_SampleTime(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:269)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:182)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:176)
+	at net.openhft.compiler.MyJavaFileManager.invokeNamedMethodIfAvailable(MyJavaFileManager.java:214)
+	at net.openhft.compiler.MyJavaFileManager.listLocationsForModules(MyJavaFileManager.java:77)
+	at jdk.compiler/com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager.listLocationsForModules(ClientCodeWrapper.java:410)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder$ModuleLocationIterator.hasNext(ModuleFinder.java:139)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.scanModulePath(ModuleFinder.java:295)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.findAllModules(ModuleFinder.java:188)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.getUnnamedModuleCompleter(Modules.java:1469)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.setCompilationUnitModules(Modules.java:485)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.enter(Modules.java:278)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initModules(Modules.java:239)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.initModules(JavaCompiler.java:1047)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:941)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	... 31 more
+
+
+
+# Run progress: 56.67% complete, ETA 00:02:03
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: <failure>
+
+java.lang.RuntimeException: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:168)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+	at net.openhft.compiler.CachedCompiler.compileFromJava(CachedCompiler.java:121)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:160)
+	at net.openhft.compiler.CachedCompiler.loadFromJava(CachedCompiler.java:87)
+	at net.openhft.chronicle.values.ValueModel.createClass(ValueModel.java:327)
+	at net.openhft.chronicle.values.ValueModel.createNativeClass(ValueModel.java:307)
+	at net.openhft.chronicle.values.ValueModel.nativeClass(ValueModel.java:283)
+	at net.openhft.chronicle.values.Values.nativeClassFor(Values.java:91)
+	at net.openhft.chronicle.values.Values.newNativeReference(Values.java:59)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.createGlobalMutableState(VanillaChronicleHash.java:353)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initOwnTransients(VanillaChronicleHash.java:406)
+	at net.openhft.chronicle.hash.impl.VanillaChronicleHash.initTransients(VanillaChronicleHash.java:402)
+	at net.openhft.chronicle.map.VanillaChronicleMap.initTransients(VanillaChronicleMap.java:188)
+	at net.openhft.chronicle.map.VanillaChronicleMap.<init>(VanillaChronicleMap.java:118)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.newMap(ChronicleMapBuilder.java:1997)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.createWithoutFile(ChronicleMapBuilder.java:1963)
+	at net.openhft.chronicle.map.ChronicleMapBuilder.create(ChronicleMapBuilder.java:1652)
+	at com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark$ChronicleMapState.setup(ChronicleMapVsConcurrentHashMapBenchmark.java:111)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest._jmh_tryInit_f_chroniclemapstate1_G(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:462)
+	at com.devoxx.lowlatency.libraries.jmh_generated.ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.chronicleMap_SampleTime(ChronicleMapVsConcurrentHashMapBenchmark_chronicleMap_jmhTest.java:269)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make public java.lang.Iterable com.sun.tools.javac.file.JavacFileManager.listLocationsForModules(javax.tools.JavaFileManager$Location) throws java.io.IOException accessible: module jdk.compiler does not "exports com.sun.tools.javac.file" to unnamed module @b81eda8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:182)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:176)
+	at net.openhft.compiler.MyJavaFileManager.invokeNamedMethodIfAvailable(MyJavaFileManager.java:214)
+	at net.openhft.compiler.MyJavaFileManager.listLocationsForModules(MyJavaFileManager.java:77)
+	at jdk.compiler/com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager.listLocationsForModules(ClientCodeWrapper.java:410)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder$ModuleLocationIterator.hasNext(ModuleFinder.java:139)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.scanModulePath(ModuleFinder.java:295)
+	at jdk.compiler/com.sun.tools.javac.code.ModuleFinder.findAllModules(ModuleFinder.java:188)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.getUnnamedModuleCompleter(Modules.java:1469)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.setCompilationUnitModules(Modules.java:485)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.enter(Modules.java:278)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initModules(Modules.java:239)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.initModules(JavaCompiler.java:1047)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:941)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	... 31 more
+
+
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap
+
+# Run progress: 60.00% complete, ETA 00:01:48
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 47.529 ±(99.9%) 7.567 ns/op
+# Warmup Iteration   2: 52.935 ±(99.9%) 3.690 ns/op
+# Warmup Iteration   3: 44.673 ±(99.9%) 2.637 ns/op
+# Warmup Iteration   4: 45.034 ±(99.9%) 2.345 ns/op
+# Warmup Iteration   5: 55.423 ±(99.9%) 11.696 ns/op
+Iteration   1: 48.873 ±(99.9%) 3.384 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   167.000 ns/op
+                 p0.999:  2718.920 ns/op
+                 p0.9999: 8441.704 ns/op
+                 p1.00:   11792.000 ns/op
+
+Iteration   2: 44.090 ±(99.9%) 2.827 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   166.000 ns/op
+                 p0.999:  3012.360 ns/op
+                 p0.9999: 5298.472 ns/op
+                 p1.00:   10160.000 ns/op
+
+Iteration   3: 54.823 ±(99.9%) 4.234 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   125.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   209.000 ns/op
+                 p0.999:  3396.288 ns/op
+                 p0.9999: 10356.877 ns/op
+                 p1.00:   15616.000 ns/op
+
+Iteration   4: 43.153 ±(99.9%) 2.874 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   125.000 ns/op
+                 p0.999:  2270.840 ns/op
+                 p0.9999: 5255.670 ns/op
+                 p1.00:   13904.000 ns/op
+
+Iteration   5: 44.668 ±(99.9%) 2.644 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   167.000 ns/op
+                 p0.999:  2284.540 ns/op
+                 p0.9999: 5088.580 ns/op
+                 p1.00:   7368.000 ns/op
+
+
+# Run progress: 63.33% complete, ETA 00:01:40
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 53.969 ±(99.9%) 5.610 ns/op
+# Warmup Iteration   2: 53.704 ±(99.9%) 8.304 ns/op
+# Warmup Iteration   3: 45.109 ±(99.9%) 3.267 ns/op
+# Warmup Iteration   4: 49.463 ±(99.9%) 3.146 ns/op
+# Warmup Iteration   5: 40.490 ±(99.9%) 1.632 ns/op
+Iteration   1: 48.819 ±(99.9%) 3.442 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   208.000 ns/op
+                 p0.999:  3090.360 ns/op
+                 p0.9999: 6711.800 ns/op
+                 p1.00:   11664.000 ns/op
+
+Iteration   2: 44.575 ±(99.9%) 2.150 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   167.000 ns/op
+                 p0.999:  377.542 ns/op
+                 p0.9999: 5178.146 ns/op
+                 p1.00:   5664.000 ns/op
+
+Iteration   3: 45.754 ±(99.9%) 4.780 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   167.000 ns/op
+                 p0.999:  375.000 ns/op
+                 p0.9999: 9708.328 ns/op
+                 p1.00:   32192.000 ns/op
+
+Iteration   4: 42.543 ±(99.9%) 1.664 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   166.000 ns/op
+                 p0.999:  292.000 ns/op
+                 p0.9999: 3731.218 ns/op
+                 p1.00:   4792.000 ns/op
+
+Iteration   5: 47.435 ±(99.9%) 3.748 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   42.000 ns/op
+                 p0.90:   84.000 ns/op
+                 p0.95:   125.000 ns/op
+                 p0.99:   167.000 ns/op
+                 p0.999:  3469.684 ns/op
+                 p0.9999: 6382.057 ns/op
+                 p1.00:   13776.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap":
+  N = 278846
+  mean =     46.354 ±(99.9%) 1.033 ns/op
+
+  Histogram, ns/op:
+    [    0.000,  2500.000) = 278580 
+    [ 2500.000,  5000.000) = 215 
+    [ 5000.000,  7500.000) = 37 
+    [ 7500.000, 10000.000) = 2 
+    [10000.000, 12500.000) = 7 
+    [12500.000, 15000.000) = 2 
+    [15000.000, 17500.000) = 1 
+    [17500.000, 20000.000) = 0 
+    [20000.000, 22500.000) = 1 
+    [22500.000, 25000.000) = 0 
+    [25000.000, 27500.000) = 0 
+    [27500.000, 30000.000) = 0 
+    [30000.000, 32500.000) = 1 
+    [32500.000, 35000.000) = 0 
+    [35000.000, 37500.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =        ≈ 0 ns/op
+     p(50.0000) =     42.000 ns/op
+     p(90.0000) =     84.000 ns/op
+     p(95.0000) =    125.000 ns/op
+     p(99.0000) =    167.000 ns/op
+     p(99.9000) =   2332.000 ns/op
+     p(99.9900) =   5252.612 ns/op
+     p(99.9990) =  16577.192 ns/op
+     p(99.9999) =  32192.000 ns/op
+    p(100.0000) =  32192.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.chronicleQueueWriteRead
+
+# Run progress: 66.67% complete, ETA 00:01:31
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1241.572 ±(99.9%) 864.689 ns/op
+# Warmup Iteration   2: 647.610 ±(99.9%) 631.078 ns/op
+# Warmup Iteration   3: 721.733 ±(99.9%) 845.089 ns/op
+# Warmup Iteration   4: 172.630 ±(99.9%) 13.097 ns/op
+# Warmup Iteration   5: 160.502 ±(99.9%) 7.519 ns/op
+Iteration   1: 516.794 ±(99.9%) 391.900 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   2416.000 ns/op
+                 p0.999:  46297.088 ns/op
+                 p0.9999: 842408.755 ns/op
+                 p1.00:   2199552.000 ns/op
+
+Iteration   2: 546461.768 ±(99.9%) 1797923.641 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   245.490 ns/op
+                 p0.999:  16868.416 ns/op
+                 p0.9999: 4211081216.000 ns/op
+                 p1.00:   4211081216.000 ns/op
+
+Iteration   3: 841.986 ±(99.9%) 920.383 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   291.000 ns/op
+                 p0.999:  39127.552 ns/op
+                 p0.9999: 2627451.290 ns/op
+                 p1.00:   6275072.000 ns/op
+
+Iteration   4: 541.261 ±(99.9%) 425.737 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   250.000 ns/op
+                 p0.999:  15842.352 ns/op
+                 p0.9999: 1733623.603 ns/op
+                 p1.00:   2928640.000 ns/op
+
+Iteration   5: 526.704 ±(99.9%) 365.498 ns/op
+                 p0.00:   42.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   208.000 ns/op
+                 p0.99:   3675.000 ns/op
+                 p0.999:  36392.000 ns/op
+                 p0.9999: 1302246.400 ns/op
+                 p1.00:   1480704.000 ns/op
+
+
+# Run progress: 70.00% complete, ETA 00:01:25
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 762.762 ±(99.9%) 761.168 ns/op
+# Warmup Iteration   2: 463.414 ±(99.9%) 696.349 ns/op
+# Warmup Iteration   3: 368.898 ±(99.9%) 130.036 ns/op
+# Warmup Iteration   4: 635.329 ±(99.9%) 564.154 ns/op
+# Warmup Iteration   5: 319.478 ±(99.9%) 248.461 ns/op
+Iteration   1: 398.927 ±(99.9%) 457.077 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   833.000 ns/op
+                 p0.999:  22774.240 ns/op
+                 p0.9999: 676244.275 ns/op
+                 p1.00:   3235840.000 ns/op
+
+Iteration   2: 79792.013 ±(99.9%) 169127.892 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   208.000 ns/op
+                 p0.99:   833.930 ns/op
+                 p0.999:  187931.904 ns/op
+                 p0.9999: 482283670.733 ns/op
+                 p1.00:   530055168.000 ns/op
+
+Iteration   3: 341818.336 ±(99.9%) 1124737.273 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   208.000 ns/op
+                 p0.95:   250.000 ns/op
+                 p0.99:   417.000 ns/op
+                 p0.999:  38958.720 ns/op
+                 p0.9999: 1317011456.000 ns/op
+                 p1.00:   1317011456.000 ns/op
+
+Iteration   4: 233219.500 ±(99.9%) 552393.281 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   208.000 ns/op
+                 p0.99:   291.000 ns/op
+                 p0.999:  35188.032 ns/op
+                 p0.9999: 1072693248.000 ns/op
+                 p1.00:   1072693248.000 ns/op
+
+Iteration   5: 441437.190 ±(99.9%) 1264962.755 ns/op
+                 p0.00:   42.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   208.000 ns/op
+                 p0.99:   375.000 ns/op
+                 p0.999:  56753.536 ns/op
+                 p0.9999: 3811860650.386 ns/op
+                 p1.00:   4387241984.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.chronicleQueueWriteRead":
+  N = 179501
+  mean =  74874.877 ±(99.9%) 117742.902 ns/op
+
+  Histogram, ns/op:
+    [         0.000,  500000000.000) = 179494 
+    [ 500000000.000, 1000000000.000) = 3 
+    [1000000000.000, 1500000000.000) = 2 
+    [1500000000.000, 2000000000.000) = 0 
+    [2000000000.000, 2500000000.000) = 0 
+    [2500000000.000, 3000000000.000) = 0 
+    [3000000000.000, 3500000000.000) = 0 
+    [3500000000.000, 4000000000.000) = 0 
+    [4000000000.000, 4500000000.000) = 2 
+
+  Percentiles, ns/op:
+      p(0.0000) =     41.000 ns/op
+     p(50.0000) =    125.000 ns/op
+     p(90.0000) =    167.000 ns/op
+     p(95.0000) =    167.000 ns/op
+     p(99.0000) =    417.000 ns/op
+     p(99.9000) =  31439.680 ns/op
+     p(99.9900) = 2235860.582 ns/op
+     p(99.9990) = 4247190650.231 ns/op
+     p(99.9999) = 4387241984.000 ns/op
+    p(100.0000) = 4387241984.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED --enable-native-access=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.inMemoryArrayDeque
+
+# Run progress: 73.33% complete, ETA 00:01:19
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 30.075 ±(99.9%) 5.076 ns/op
+# Warmup Iteration   2: 20.683 ±(99.9%) 0.791 ns/op
+# Warmup Iteration   3: 22.310 ±(99.9%) 1.625 ns/op
+# Warmup Iteration   4: 22.418 ±(99.9%) 1.310 ns/op
+# Warmup Iteration   5: 21.866 ±(99.9%) 1.009 ns/op
+Iteration   1: 21.464 ±(99.9%) 0.707 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  125.000 ns/op
+                 p0.9999: 1307.283 ns/op
+                 p1.00:   4120.000 ns/op
+
+Iteration   2: 22.425 ±(99.9%) 1.497 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   ≈ 0 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  188.771 ns/op
+                 p0.9999: 4188.093 ns/op
+                 p1.00:   9456.000 ns/op
+
+Iteration   3: 22.386 ±(99.9%) 1.236 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  250.000 ns/op
+                 p0.9999: 3708.080 ns/op
+                 p1.00:   8208.000 ns/op
+
+Iteration   4: 22.833 ±(99.9%) 1.215 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  250.000 ns/op
+                 p0.9999: 3543.470 ns/op
+                 p1.00:   7536.000 ns/op
+
+Iteration   5: 22.910 ±(99.9%) 1.213 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  567.728 ns/op
+                 p0.9999: 3683.718 ns/op
+                 p1.00:   6496.000 ns/op
+
+
+# Run progress: 76.67% complete, ETA 00:01:09
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 26.058 ±(99.9%) 3.075 ns/op
+# Warmup Iteration   2: 24.423 ±(99.9%) 4.905 ns/op
+# Warmup Iteration   3: 22.213 ±(99.9%) 1.301 ns/op
+# Warmup Iteration   4: 21.144 ±(99.9%) 0.467 ns/op
+# Warmup Iteration   5: 22.966 ±(99.9%) 2.583 ns/op
+Iteration   1: 21.444 ±(99.9%) 0.860 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   ≈ 0 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  125.000 ns/op
+                 p0.9999: 3624.000 ns/op
+                 p1.00:   4208.000 ns/op
+
+Iteration   2: 22.232 ±(99.9%) 1.677 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   ≈ 0 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  84.000 ns/op
+                 p0.9999: 5388.758 ns/op
+                 p1.00:   11248.000 ns/op
+
+Iteration   3: 21.332 ±(99.9%) 0.619 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  84.000 ns/op
+                 p0.9999: 810.894 ns/op
+                 p1.00:   4288.000 ns/op
+
+Iteration   4: 23.112 ±(99.9%) 2.227 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   41.000 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  84.000 ns/op
+                 p0.9999: 8080.928 ns/op
+                 p1.00:   12784.000 ns/op
+
+Iteration   5: 21.923 ±(99.9%) 0.957 ns/op
+                 p0.00:   ≈ 0 ns/op
+                 p0.50:   ≈ 0 ns/op
+                 p0.90:   42.000 ns/op
+                 p0.95:   42.000 ns/op
+                 p0.99:   42.000 ns/op
+                 p0.999:  167.000 ns/op
+                 p0.9999: 3682.638 ns/op
+                 p1.00:   4496.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.ChronicleQueueBenchmark.inMemoryArrayDeque":
+  N = 329597
+  mean =     22.202 ±(99.9%) 0.413 ns/op
+
+  Histogram, ns/op:
+    [    0.000,  1250.000) = 329522 
+    [ 1250.000,  2500.000) = 25 
+    [ 2500.000,  3750.000) = 17 
+    [ 3750.000,  5000.000) = 21 
+    [ 5000.000,  6250.000) = 2 
+    [ 6250.000,  7500.000) = 2 
+    [ 7500.000,  8750.000) = 4 
+    [ 8750.000, 10000.000) = 2 
+    [10000.000, 11250.000) = 1 
+    [11250.000, 12500.000) = 0 
+    [12500.000, 13750.000) = 1 
+    [13750.000, 15000.000) = 0 
+    [15000.000, 16250.000) = 0 
+    [16250.000, 17500.000) = 0 
+    [17500.000, 18750.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =        ≈ 0 ns/op
+     p(50.0000) =     41.000 ns/op
+     p(90.0000) =     42.000 ns/op
+     p(95.0000) =     42.000 ns/op
+     p(99.0000) =     42.000 ns/op
+     p(99.9000) =    167.000 ns/op
+     p(99.9900) =   3788.161 ns/op
+     p(99.9990) =   9366.022 ns/op
+     p(99.9999) =  12784.000 ns/op
+    p(100.0000) =  12784.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue
+
+# Run progress: 80.00% complete, ETA 00:00:59
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2560.320 ±(99.9%) 76.006 ns/op
+# Warmup Iteration   2: 2851.867 ±(99.9%) 156.588 ns/op
+# Warmup Iteration   3: 2526.226 ±(99.9%) 44.984 ns/op
+# Warmup Iteration   4: 2489.596 ±(99.9%) 63.031 ns/op
+# Warmup Iteration   5: 2391.074 ±(99.9%) 36.081 ns/op
+Iteration   1: 2873.917 ±(99.9%) 110.324 ns/op
+                 p0.00:   208.000 ns/op
+                 p0.50:   2040.000 ns/op
+                 p0.90:   4120.000 ns/op
+                 p0.95:   6288.000 ns/op
+                 p0.99:   15449.280 ns/op
+                 p0.999:  63287.040 ns/op
+                 p0.9999: 253884.083 ns/op
+                 p1.00:   316928.000 ns/op
+
+Iteration   2: 2432.994 ±(99.9%) 37.010 ns/op
+                 p0.00:   167.000 ns/op
+                 p0.50:   2000.000 ns/op
+                 p0.90:   3000.000 ns/op
+                 p0.95:   4456.000 ns/op
+                 p0.99:   10348.800 ns/op
+                 p0.999:  23041.280 ns/op
+                 p0.9999: 52105.216 ns/op
+                 p1.00:   60928.000 ns/op
+
+Iteration   3: 2457.825 ±(99.9%) 52.424 ns/op
+                 p0.00:   208.000 ns/op
+                 p0.50:   2000.000 ns/op
+                 p0.90:   2788.000 ns/op
+                 p0.95:   4482.000 ns/op
+                 p0.99:   11124.160 ns/op
+                 p0.999:  26114.080 ns/op
+                 p0.9999: 146095.411 ns/op
+                 p1.00:   148480.000 ns/op
+
+Iteration   4: 2357.525 ±(99.9%) 36.330 ns/op
+                 p0.00:   416.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2624.000 ns/op
+                 p0.95:   4040.000 ns/op
+                 p0.99:   10448.000 ns/op
+                 p0.999:  23844.096 ns/op
+                 p0.9999: 52188.634 ns/op
+                 p1.00:   74240.000 ns/op
+
+Iteration   5: 2623.117 ±(99.9%) 65.574 ns/op
+                 p0.00:   250.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   3456.000 ns/op
+                 p0.95:   5456.000 ns/op
+                 p0.99:   12896.640 ns/op
+                 p0.999:  32049.408 ns/op
+                 p0.9999: 63320.678 ns/op
+                 p1.00:   297984.000 ns/op
+
+
+# Run progress: 83.33% complete, ETA 00:00:49
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 2526.238 ±(99.9%) 107.742 ns/op
+# Warmup Iteration   2: 2853.376 ±(99.9%) 200.302 ns/op
+# Warmup Iteration   3: 2444.807 ±(99.9%) 41.454 ns/op
+# Warmup Iteration   4: 2466.153 ±(99.9%) 54.718 ns/op
+# Warmup Iteration   5: 2433.988 ±(99.9%) 34.956 ns/op
+Iteration   1: 2583.139 ±(99.9%) 101.965 ns/op
+                 p0.00:   167.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   3080.000 ns/op
+                 p0.95:   5160.000 ns/op
+                 p0.99:   12882.720 ns/op
+                 p0.999:  37164.480 ns/op
+                 p0.9999: 278712.218 ns/op
+                 p1.00:   481792.000 ns/op
+
+Iteration   2: 2358.747 ±(99.9%) 44.812 ns/op
+                 p0.00:   208.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   2624.000 ns/op
+                 p0.95:   4160.000 ns/op
+                 p0.99:   10755.200 ns/op
+                 p0.999:  23115.520 ns/op
+                 p0.9999: 113442.048 ns/op
+                 p1.00:   166912.000 ns/op
+
+Iteration   3: 2565.914 ±(99.9%) 80.940 ns/op
+                 p0.00:   250.000 ns/op
+                 p0.50:   1958.000 ns/op
+                 p0.90:   3040.000 ns/op
+                 p0.95:   4952.000 ns/op
+                 p0.99:   11872.000 ns/op
+                 p0.999:  28610.816 ns/op
+                 p0.9999: 184897.894 ns/op
+                 p1.00:   370688.000 ns/op
+
+Iteration   4: 5967.469 ±(99.9%) 296.384 ns/op
+                 p0.00:   208.000 ns/op
+                 p0.50:   3124.000 ns/op
+                 p0.90:   11120.000 ns/op
+                 p0.95:   13360.000 ns/op
+                 p0.99:   44641.280 ns/op
+                 p0.999:  138134.528 ns/op
+                 p0.9999: 670962.483 ns/op
+                 p1.00:   1161216.000 ns/op
+
+Iteration   5: 4836.410 ±(99.9%) 321.371 ns/op
+                 p0.00:   292.000 ns/op
+                 p0.50:   2040.000 ns/op
+                 p0.90:   8040.000 ns/op
+                 p0.95:   11744.000 ns/op
+                 p0.99:   57453.440 ns/op
+                 p0.999:  130075.264 ns/op
+                 p0.9999: 1009709.978 ns/op
+                 p1.00:   1693696.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue":
+  N = 260434
+  mean =   3117.098 ±(99.9%) 51.904 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  125000.000) = 260348 
+    [ 125000.000,  250000.000) = 67 
+    [ 250000.000,  375000.000) = 10 
+    [ 375000.000,  500000.000) = 3 
+    [ 500000.000,  625000.000) = 0 
+    [ 625000.000,  750000.000) = 0 
+    [ 750000.000,  875000.000) = 1 
+    [ 875000.000, 1000000.000) = 1 
+    [1000000.000, 1125000.000) = 2 
+    [1125000.000, 1250000.000) = 1 
+    [1250000.000, 1375000.000) = 0 
+    [1375000.000, 1500000.000) = 0 
+    [1500000.000, 1625000.000) = 0 
+    [1625000.000, 1750000.000) = 1 
+    [1750000.000, 1875000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =    167.000 ns/op
+     p(50.0000) =   2000.000 ns/op
+     p(90.0000) =   4456.000 ns/op
+     p(95.0000) =   7624.000 ns/op
+     p(99.0000) =  19104.000 ns/op
+     p(99.9000) =  78536.320 ns/op
+     p(99.9900) = 213670.784 ns/op
+     p(99.9990) = 1120371.610 ns/op
+     p(99.9999) = 1693696.000 ns/op
+    p(100.0000) = 1693696.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc
+
+# Run progress: 86.67% complete, ETA 00:00:39
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 168.543 ±(99.9%) 18.231 ns/op
+# Warmup Iteration   2: 153.204 ±(99.9%) 8.175 ns/op
+# Warmup Iteration   3: 132.644 ±(99.9%) 3.192 ns/op
+# Warmup Iteration   4: 154.567 ±(99.9%) 44.985 ns/op
+# Warmup Iteration   5: 131.119 ±(99.9%) 3.541 ns/op
+Iteration   1: 130.803 ±(99.9%) 4.155 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   166.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   375.000 ns/op
+                 p0.999:  500.000 ns/op
+                 p0.9999: 9736.152 ns/op
+                 p1.00:   37440.000 ns/op
+
+Iteration   2: 137.837 ±(99.9%) 4.287 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   416.000 ns/op
+                 p0.999:  750.000 ns/op
+                 p0.9999: 11248.400 ns/op
+                 p1.00:   38080.000 ns/op
+
+Iteration   3: 132.234 ±(99.9%) 2.462 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   166.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   416.000 ns/op
+                 p0.999:  709.000 ns/op
+                 p0.9999: 8173.672 ns/op
+                 p1.00:   10912.000 ns/op
+
+Iteration   4: 148.649 ±(99.9%) 28.014 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   167.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   417.000 ns/op
+                 p0.999:  696.151 ns/op
+                 p0.9999: 7906.953 ns/op
+                 p1.00:   273408.000 ns/op
+
+Iteration   5: 376.013 ±(99.9%) 188.233 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   209.000 ns/op
+                 p0.95:   334.000 ns/op
+                 p0.99:   542.000 ns/op
+                 p0.999:  34633.472 ns/op
+                 p0.9999: 330899.661 ns/op
+                 p1.00:   1695744.000 ns/op
+
+
+# Run progress: 90.00% complete, ETA 00:00:30
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 233.297 ±(99.9%) 36.313 ns/op
+# Warmup Iteration   2: 184.766 ±(99.9%) 8.663 ns/op
+# Warmup Iteration   3: 157.578 ±(99.9%) 11.644 ns/op
+# Warmup Iteration   4: 185.432 ±(99.9%) 8.773 ns/op
+# Warmup Iteration   5: 225.876 ±(99.9%) 68.789 ns/op
+Iteration   1: 375.168 ±(99.9%) 448.159 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   416.000 ns/op
+                 p0.95:   417.000 ns/op
+                 p0.99:   459.000 ns/op
+                 p0.999:  12323.456 ns/op
+                 p0.9999: 172854.477 ns/op
+                 p1.00:   3117056.000 ns/op
+
+Iteration   2: 266.274 ±(99.9%) 166.649 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   375.000 ns/op
+                 p0.95:   417.000 ns/op
+                 p0.99:   458.000 ns/op
+                 p0.999:  12768.736 ns/op
+                 p0.9999: 114119.219 ns/op
+                 p1.00:   1277952.000 ns/op
+
+Iteration   3: 170.612 ±(99.9%) 6.469 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   375.000 ns/op
+                 p0.95:   416.000 ns/op
+                 p0.99:   417.000 ns/op
+                 p0.999:  4770.352 ns/op
+                 p0.9999: 14716.358 ns/op
+                 p1.00:   17312.000 ns/op
+
+Iteration   4: 218.789 ±(99.9%) 49.919 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   375.000 ns/op
+                 p0.95:   417.000 ns/op
+                 p0.99:   459.000 ns/op
+                 p0.999:  9425.760 ns/op
+                 p0.9999: 124531.072 ns/op
+                 p1.00:   282112.000 ns/op
+
+Iteration   5: 879.137 ±(99.9%) 685.636 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   125.000 ns/op
+                 p0.90:   334.000 ns/op
+                 p0.95:   375.000 ns/op
+                 p0.99:   500.000 ns/op
+                 p0.999:  113164.544 ns/op
+                 p0.9999: 1381609.472 ns/op
+                 p1.00:   5775360.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc":
+  N = 308661
+  mean =    286.890 ±(99.9%) 89.906 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 308653 
+    [ 500000.000, 1000000.000) = 2 
+    [1000000.000, 1500000.000) = 1 
+    [1500000.000, 2000000.000) = 1 
+    [2000000.000, 2500000.000) = 1 
+    [2500000.000, 3000000.000) = 0 
+    [3000000.000, 3500000.000) = 1 
+    [3500000.000, 4000000.000) = 1 
+    [4000000.000, 4500000.000) = 0 
+    [4500000.000, 5000000.000) = 0 
+    [5000000.000, 5500000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =     41.000 ns/op
+     p(50.0000) =    125.000 ns/op
+     p(90.0000) =    208.000 ns/op
+     p(95.0000) =    375.000 ns/op
+     p(99.0000) =    458.000 ns/op
+     p(99.9000) =  12544.224 ns/op
+     p(99.9900) = 211510.067 ns/op
+     p(99.9990) = 3026583.142 ns/op
+     p(99.9999) = 5775360.000 ns/op
+    p(100.0000) = 5775360.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 25.0.3, OpenJDK 64-Bit Server VM, 25.0.3+9-LTS
+# VM invoker: /Users/stefanangelov/.sdkman/candidates/java/25.0.3-amzn/bin/java
+# VM options: -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue
+
+# Run progress: 93.33% complete, ETA 00:00:20
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 285.992 ±(99.9%) 191.753 ns/op
+# Warmup Iteration   2: 190.653 ±(99.9%) 17.046 ns/op
+# Warmup Iteration   3: 483.411 ±(99.9%) 122.870 ns/op
+# Warmup Iteration   4: 246.840 ±(99.9%) 35.611 ns/op
+# Warmup Iteration   5: 250.807 ±(99.9%) 38.720 ns/op
+Iteration   1: 239.728 ±(99.9%) 18.942 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   459.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  11845.024 ns/op
+                 p0.9999: 33450.864 ns/op
+                 p1.00:   60480.000 ns/op
+
+Iteration   2: 248.430 ±(99.9%) 6.687 ns/op
+                 p0.00:   42.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   541.000 ns/op
+                 p0.95:   583.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  5579.264 ns/op
+                 p0.9999: 13816.922 ns/op
+                 p1.00:   17408.000 ns/op
+
+Iteration   3: 356.590 ±(99.9%) 259.386 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   500.000 ns/op
+                 p0.95:   583.000 ns/op
+                 p0.99:   667.000 ns/op
+                 p0.999:  13057.152 ns/op
+                 p0.9999: 145611.162 ns/op
+                 p1.00:   2596864.000 ns/op
+
+Iteration   4: 245.675 ±(99.9%) 39.045 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   500.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  5394.616 ns/op
+                 p0.9999: 126682.483 ns/op
+                 p1.00:   324608.000 ns/op
+
+Iteration   5: 244.290 ±(99.9%) 45.198 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   250.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  12888.560 ns/op
+                 p0.9999: 65520.691 ns/op
+                 p1.00:   260864.000 ns/op
+
+
+# Run progress: 96.67% complete, ETA 00:00:10
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 254.424 ±(99.9%) 10.442 ns/op
+# Warmup Iteration   2: 343.967 ±(99.9%) 61.602 ns/op
+# Warmup Iteration   3: 201.020 ±(99.9%) 7.920 ns/op
+# Warmup Iteration   4: 221.835 ±(99.9%) 5.008 ns/op
+# Warmup Iteration   5: 230.608 ±(99.9%) 11.924 ns/op
+Iteration   1: 239.603 ±(99.9%) 14.597 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   500.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  5085.360 ns/op
+                 p0.9999: 17187.552 ns/op
+                 p1.00:   149760.000 ns/op
+
+Iteration   2: 211.366 ±(99.9%) 8.507 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   250.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  5216.760 ns/op
+                 p0.9999: 16503.266 ns/op
+                 p1.00:   16928.000 ns/op
+
+Iteration   3: 263.063 ±(99.9%) 7.521 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   542.000 ns/op
+                 p0.95:   583.000 ns/op
+                 p0.99:   666.000 ns/op
+                 p0.999:  7309.440 ns/op
+                 p0.9999: 13452.717 ns/op
+                 p1.00:   22368.000 ns/op
+
+Iteration   4: 211.173 ±(99.9%) 8.967 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   458.000 ns/op
+                 p0.95:   541.000 ns/op
+                 p0.99:   584.000 ns/op
+                 p0.999:  7485.384 ns/op
+                 p0.9999: 14332.102 ns/op
+                 p1.00:   17696.000 ns/op
+
+Iteration   5: 218.571 ±(99.9%) 9.675 ns/op
+                 p0.00:   83.000 ns/op
+                 p0.50:   167.000 ns/op
+                 p0.90:   500.000 ns/op
+                 p0.95:   542.000 ns/op
+                 p0.99:   625.000 ns/op
+                 p0.999:  6200.736 ns/op
+                 p0.9999: 18940.467 ns/op
+                 p1.00:   19328.000 ns/op
+
+
+
+Result "com.devoxx.lowlatency.libraries.DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue":
+  N = 289335
+  mean =    252.304 ±(99.9%) 30.779 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  250000.000) = 289331 
+    [ 250000.000,  500000.000) = 3 
+    [ 500000.000,  750000.000) = 0 
+    [ 750000.000, 1000000.000) = 0 
+    [1000000.000, 1250000.000) = 0 
+    [1250000.000, 1500000.000) = 0 
+    [1500000.000, 1750000.000) = 0 
+    [1750000.000, 2000000.000) = 0 
+    [2000000.000, 2250000.000) = 0 
+    [2250000.000, 2500000.000) = 0 
+    [2500000.000, 2750000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =     41.000 ns/op
+     p(50.0000) =    167.000 ns/op
+     p(90.0000) =    500.000 ns/op
+     p(95.0000) =    542.000 ns/op
+     p(99.0000) =    625.000 ns/op
+     p(99.9000) =   7983.872 ns/op
+     p(99.9900) =  26318.874 ns/op
+     p(99.9990) = 330777.764 ns/op
+     p(99.9999) = 2596864.000 ns/op
+    p(100.0000) = 2596864.000 ns/op
+
+
+# Run complete. Total time: 00:05:02
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                               Mode     Cnt           Score        Error  Units
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer                     avgt      10         190.816 ±     81.216  ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue                            avgt      10        2733.575 ±    463.396  ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap              avgt      10          19.335 ±      5.593  ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead                         avgt      10      131447.529 ± 343932.174  ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque                              avgt      10           5.172 ±      1.546  ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer                   sample  261621         352.996 ±     89.084  ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.00             sample                  41.000               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.50             sample                 167.000               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.90             sample                 209.000               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.95             sample                 416.000               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.99             sample                 625.000               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.999            sample               12220.096               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p0.9999           sample              297360.794               ns/op
+AgronaRingBufferBenchmark.agronaManyToOneRingBuffer:p1.00             sample             4096000.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue                          sample  254028        2807.912 ±     36.513  ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.00                    sample                 292.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.50                    sample                2000.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.90                    sample                4288.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.95                    sample                6496.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.99                    sample               12992.000               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.999                   sample               43902.144               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p0.9999                  sample              156130.304               ns/op
+AgronaRingBufferBenchmark.arrayBlockingQueue:p1.00                    sample             1742848.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap            sample  278846          46.354 ±      1.033  ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.00      sample                     ≈ 0               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.50      sample                  42.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.90      sample                  84.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.95      sample                 125.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.99      sample                 167.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.999     sample                2332.000               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p0.9999    sample                5252.612               ns/op
+ChronicleMapVsConcurrentHashMapBenchmark.concurrentHashMap:p1.00      sample               32192.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead                       sample  179501       74874.877 ± 117742.902  ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.00                 sample                  41.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.50                 sample                 125.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.90                 sample                 167.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.95                 sample                 167.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.99                 sample                 417.000               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.999                sample               31439.680               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p0.9999               sample             2235860.582               ns/op
+ChronicleQueueBenchmark.chronicleQueueWriteRead:p1.00                 sample          4387241984.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque                            sample  329597          22.202 ±      0.413  ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.00                      sample                     ≈ 0               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.50                      sample                  41.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.90                      sample                  42.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.95                      sample                  42.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.99                      sample                  42.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.999                     sample                 167.000               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p0.9999                    sample                3788.161               ns/op
+ChronicleQueueBenchmark.inMemoryArrayDeque:p1.00                      sample               12784.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue             sample  260434        3117.098 ±     51.904  ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.00       sample                 167.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.50       sample                2000.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.90       sample                4456.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.95       sample                7624.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.99       sample               19104.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.999      sample               78536.320               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p0.9999     sample              213670.784               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.arrayBlockingQueue:p1.00       sample             1693696.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc                  sample  308661         286.890 ±     89.906  ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.00            sample                  41.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.50            sample                 125.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.90            sample                 208.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.95            sample                 375.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.99            sample                 458.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.999           sample               12544.224               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p0.9999          sample              211510.067               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.disruptorSpsc:p1.00            sample             5775360.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue          sample  289335         252.304 ±     30.779  ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.00    sample                  41.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.50    sample                 167.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.90    sample                 500.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.95    sample                 542.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.99    sample                 625.000               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.999   sample                7983.872               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p0.9999  sample               26318.874               ns/op
+DisruptorVsArrayBlockingQueueBenchmark.jctoolsSpscArrayQueue:p1.00    sample             2596864.000               ns/op
+
+Benchmark result is saved to /Users/stefanangelov/Documents/JAVAPROSpecialEditionArticle/devoxx-uk/benchmarks/../results/raw/libraries.json

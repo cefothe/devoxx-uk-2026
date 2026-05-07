@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1200 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#9aa0a6"/>
+    </marker>
+  </defs>
+
+  <circle cx="55" cy="120" r="26" fill="white" stroke="#9aa0a6" stroke-width="2"/>
+  <line x1="82" y1="120" x2="156" y2="120" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="160" y="80" width="220" height="80" fill="white" stroke="#9aa0a6" stroke-width="2.5"/>
+  <text x="270" y="130" text-anchor="middle" font-size="28" fill="#222" font-family="sans-serif">Interpreter</text>
+  <rect x="320" y="58" width="90" height="34" rx="6" fill="#b8b8b8"/>
+  <text x="365" y="80" text-anchor="middle" font-size="18" fill="#222" font-family="sans-serif">profiling</text>
+
+  <line x1="380" y1="120" x2="536" y2="120" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="458" y="172" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">Generate code</text>
+  <text x="458" y="192" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">quickly</text>
+
+  <rect x="540" y="80" width="180" height="80" fill="white" stroke="#9aa0a6" stroke-width="2.5"/>
+  <text x="630" y="130" text-anchor="middle" font-size="28" fill="#222" font-family="sans-serif">C1</text>
+  <rect x="675" y="58" width="90" height="34" rx="6" fill="#b8b8b8"/>
+  <text x="720" y="80" text-anchor="middle" font-size="18" fill="#222" font-family="sans-serif">profiling</text>
+
+  <line x1="765" y1="120" x2="896" y2="120" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="830" y="172" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">Generate highly</text>
+  <text x="830" y="192" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">optimized code</text>
+
+  <rect x="900" y="80" width="180" height="80" fill="white" stroke="#9aa0a6" stroke-width="2.5"/>
+  <text x="990" y="130" text-anchor="middle" font-size="28" fill="#222" font-family="sans-serif">C2</text>
+
+  <path d="M700 390 L700 460 C700 470 740 478 780 478 C820 478 860 470 860 460 L860 390" fill="white" stroke="#9aa0a6" stroke-width="2"/>
+  <ellipse cx="780" cy="390" rx="80" ry="14" fill="white" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="780" y="425" text-anchor="middle" font-size="22" fill="#222" font-family="sans-serif">code</text>
+  <text x="780" y="450" text-anchor="middle" font-size="22" fill="#222" font-family="sans-serif">cache</text>
+
+  <line x1="640" y1="160" x2="745" y2="382" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="600" y="282" text-anchor="end" font-size="16" fill="#444" font-family="sans-serif">Save compiled</text>
+  <text x="600" y="302" text-anchor="end" font-size="16" fill="#444" font-family="sans-serif">code</text>
+
+  <line x1="985" y1="160" x2="820" y2="382" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="998" y="282" text-anchor="start" font-size="16" fill="#444" font-family="sans-serif">Save compiled</text>
+  <text x="998" y="302" text-anchor="start" font-size="16" fill="#444" font-family="sans-serif">code</text>
+
+  <rect x="270" y="395" width="290" height="70" rx="14" fill="white" stroke="#9aa0a6" stroke-width="2.5"/>
+  <text x="415" y="438" text-anchor="middle" font-size="26" fill="#222" font-family="sans-serif">Deoptimization</text>
+
+  <line x1="700" y1="430" x2="566" y2="430" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="633" y="465" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">Deoptimize</text>
+  <text x="633" y="485" text-anchor="middle" font-size="16" fill="#444" font-family="sans-serif">compiled code</text>
+
+  <path d="M280 415 Q120 415 120 270 Q120 125 158 125" fill="none" stroke="#9aa0a6" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="135" y="290" font-size="16" fill="#444" font-family="sans-serif">Interpreter and</text>
+  <text x="135" y="310" font-size="16" fill="#444" font-family="sans-serif">profile</text>
+</svg>
