@@ -130,7 +130,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="achieving-microsecond-latencies-with-java">Achieving Microsecond Latencies with Java</h1>
@@ -254,7 +254,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="java-is-too-slow-for-low-latency">&quot;Java is too slow for low latency.&quot;</h2>
@@ -379,7 +379,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="how-small-is-a-microsecond">How small is a microsecond?</h2>
@@ -529,7 +529,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="who-needs-this-kind-of-latency">Who needs this kind of latency?</h2>
 <ul>
@@ -544,7 +544,7 @@ section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
 </blockquote>
 <footer>Stefan Angelov · Devoxx UK 2026</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
 section.lead { text-align: center; }
 section.lead h1 { font-size: 64px; }
 section.lead h2 { font-size: 40px; }
@@ -660,9 +660,126 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;--marpit-advanced-background-split:28%;" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https_github_com_cefothe_devoxx-uk-2026.png&quot;);background-size:260px auto;"></figure></div></section></foreignObject><foreignObject width="72%" height="720"><section id="5" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+" lang="bg-BG" data-marpit-pagination="5" style="--paginate:true;--header:Achieving Microsecond Latencies with Java;--footer:Stefan Angelov · Devoxx UK 2026;--theme:gaia;--style:section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+;--marpit-advanced-background-split:28%;" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="who-am-i">Who am I</h2>
+
 <ul>
 <li><strong>Stefan Angelov</strong> — Engineering Manager at <strong>Tradu</strong> · Software Architect</li>
 <li><strong>10+ years</strong> across fintech &amp; gaming — distributed systems, millions of transactions</li>
@@ -673,7 +790,65 @@ section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
 <p><strong>Why listen:</strong> every number on these slides is either from production trading systems I've worked on, or from a JMH benchmark in <a href="https://github.com/cefothe/devoxx-uk-2026">github.com/cefothe/devoxx-uk-2026</a> — both are open.</p>
 <footer>Stefan Angelov · Devoxx UK 2026</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+" lang="bg-BG" data-marpit-pagination="5" style="" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
 section.lead { text-align: center; }
 section.lead h1 { font-size: 64px; }
 section.lead h2 { font-size: 40px; }
@@ -789,7 +964,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="what-this-talk-is-and-isnt">What this talk is (and isn't)</h2>
 <p><strong>Three promises:</strong></p>
@@ -917,7 +1092,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="the-mental-shift">The mental shift</h2>
@@ -1072,7 +1247,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="part-1--the-platform">Part 1 — The platform</h2>
 <h1 id="how-the-jvm-actually-runs-your-code">How the JVM actually runs your code</h1>
@@ -1194,7 +1369,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="jit-101--three-tiers-not-one">JIT 101 — three tiers, not one</h2>
@@ -1344,7 +1519,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="the-jit-compilation-pipeline">The JIT compilation pipeline</h2>
 <p><img src="jit-pipeline.svg" alt="JIT compilation pipeline" style="width:1100px;" /></p>
@@ -1466,7 +1641,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="what-c2-actually-does">What C2 actually does</h2>
 <p>The JIT knows things you can't:</p>
@@ -1595,7 +1770,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="the-cost-of-doing-nothing">The cost of doing nothing</h2>
@@ -1730,7 +1905,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="the-35-byte-trap">The 35-byte trap</h2>
 <blockquote>
@@ -1859,7 +2034,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="xxprintinlining--what-the-jit-actually-did"><code>-XX:+PrintInlining</code> — what the JIT actually did</h2>
 <p>Run the diagnostic flag. Read the output. <strong>Don't guess.</strong></p>
@@ -1996,7 +2171,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="escape-analysis--when-allocation-disappears">Escape analysis — when allocation disappears</h2>
 <p>Inlining is the gate. Once a method inlines, the JIT asks: <strong>does this object escape?</strong></p>
@@ -2136,7 +2311,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="the-memory-wall">The memory wall</h2>
 <table>
@@ -2307,7 +2482,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="javas-memory-model--heap-stack-and-metaspace">Java's memory model — heap, stack, and metaspace</h2>
@@ -2453,7 +2628,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="why-gc-kills-latency">Why GC kills latency</h2>
@@ -2608,7 +2783,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="gc-pause-shapes--picking-the-collector">GC pause shapes — picking the collector</h2>
@@ -2773,7 +2948,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="three-counter-intuitive-truths">Three counter-intuitive truths</h1>
@@ -2897,7 +3072,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="truth-1">Truth #1</h1>
@@ -3023,7 +3198,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="off-heap-mechanism">Off-heap mechanism</h2>
@@ -3154,7 +3329,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="why-off-heap-wins">Why off-heap wins</h2>
 <ul>
@@ -3281,7 +3456,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="off-heap-vs-on-heap--the-number">Off-heap vs on-heap — the number</h2>
 <div class="big-number">15×</div>
@@ -3411,7 +3586,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="when-youd-actually-do-this">When you'd actually do this</h2>
 <p><strong>Off-heap shines when:</strong></p>
@@ -3547,7 +3722,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="truth-2">Truth #2</h1>
@@ -3673,7 +3848,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="the-shard-per-thread-pattern">The shard-per-thread pattern</h2>
@@ -3809,7 +3984,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="why-sharding-wins">Why sharding wins</h2>
 <ul>
@@ -3935,7 +4110,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="sharded-vs-contended--the-number">Sharded vs contended — the number</h2>
 <div class="big-number">100–1000×</div>
@@ -4065,7 +4240,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="why-locks-are-this-expensive">Why locks are this expensive</h2>
 <p>It's not the lock. It's everything around the lock:</p>
@@ -4196,7 +4371,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="truth-3">Truth #3</h1>
@@ -4322,7 +4497,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h2 id="whats-a-ring-buffer">What's a ring buffer?</h2>
@@ -4448,7 +4623,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="ring-buffer-object-pool">Ring-buffer object pool</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">RingBufferObjectPool</span>&lt;T&gt; {
@@ -4591,7 +4766,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="pooling-vs-allocation--the-number">Pooling vs allocation — the number</h2>
 <div class="big-number">21×</div>
@@ -4744,7 +4919,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="the-pools-evil-twins">The pool's evil twins</h2>
 <p><strong>Canonical objects</strong> — for <em>immutable</em> values, share the one true instance.</p>
@@ -4872,7 +5047,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="part-2--the-libraries">Part 2 — The libraries</h2>
 <h1 id="dont-reinvent-these">Don't reinvent these.</h1>
@@ -4994,7 +5169,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="lmax-disruptor--the-ring-buffer-that-started-it-all">LMAX Disruptor — the ring buffer that started it all</h2>
 <p>A bounded, <strong>pre-allocated</strong> ring buffer with <strong>lock-free</strong> producer/consumer coordination via <code>Sequence</code> and <code>SequenceBarrier</code>.</p>
@@ -5125,7 +5300,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="disruptor-vs-arrayblockingqueue--the-number">Disruptor vs <code>ArrayBlockingQueue</code> — the number</h2>
 <div class="big-number">5–15×</div>
@@ -5255,7 +5430,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="chronicle-queue--persistent-microsecond-ipc">Chronicle Queue — persistent, microsecond IPC</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">try</span> (<span class="hljs-type">ChronicleQueue</span> <span class="hljs-variable">queue</span> <span class="hljs-operator">=</span> ChronicleQueue.single(<span class="hljs-string">&quot;/tmp/queue&quot;</span>);
@@ -5390,7 +5565,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="chronicle-queue--the-number">Chronicle Queue — the number</h2>
 <div class="big-number">&lt; 1 µs</div>
@@ -5517,7 +5692,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="chronicle-map--off-heap-kv-at-scale">Chronicle Map — off-heap K/V at scale</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java">ChronicleMap&lt;Long, Account&gt; accounts = ChronicleMap
@@ -5651,7 +5826,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="chronicle-map-vs-concurrenthashmap--the-number">Chronicle Map vs <code>ConcurrentHashMap</code> — the number</h2>
 <div class="big-number">~ 0 GC</div>
@@ -5778,7 +5953,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="agrona--the-foundation">Agrona — the foundation</h2>
 <p>The library you're already using if you've ever touched Disruptor or Aeron.</p>
@@ -5909,7 +6084,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="agrona--the-numbers">Agrona — the numbers</h2>
 <div class="big-number">3–6×</div>
@@ -6037,7 +6212,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="part-3--mechanical-sympathy">Part 3 — Mechanical sympathy</h2>
 <h1 id="what-the-cpu-actually-wants-from-you">What the CPU actually wants from you</h1>
@@ -6159,7 +6334,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="false-sharing--the-silent-killer">False sharing — the silent killer</h2>
 <p>Two unrelated <code>long</code> fields. Two threads. One cache line.<br />
@@ -6292,7 +6467,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="branch-prediction--predictable-beats-random">Branch prediction — predictable beats random</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-comment">// Sorted input: branch is predictable. CPU pipeline stays full.</span>
@@ -6424,7 +6599,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="thread-affinity--pin-the-thread-to-the-core">Thread affinity — pin the thread to the core</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">try</span> (<span class="hljs-type">AffinityLock</span> <span class="hljs-variable">lock</span> <span class="hljs-operator">=</span> AffinityLock.acquireCore()) {
@@ -6561,7 +6736,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="a-few-more-things-you-should-know-exist">A few more things you should know exist</h2>
 <ul>
@@ -6691,7 +6866,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="part-4--putting-it-together">Part 4 — Putting it together</h2>
 <h1 id="what-does-a-sub-10-%C2%B5s-system-actually-look-like">What does a sub-10 µs system actually look like?</h1>
@@ -6813,7 +6988,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="production-architecture--exchange-core-style">Production architecture — exchange-core style</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>                  Client orders (WebSocket / FIX / REST)
@@ -6953,7 +7128,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="why-all-three-techniques-none-alone-are-enough">Why all three techniques. None alone are enough.</h2>
 <table>
@@ -7097,7 +7272,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="production-proof--exchange-core">Production proof — exchange-core</h2>
 <p><strong><a href="https://github.com/exchange-core/exchange-core">github.com/exchange-core/exchange-core</a></strong> — open source</p>
@@ -7228,7 +7403,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="what-you-do-monday-morning">What you do Monday morning</h2>
 <ol>
@@ -7243,7 +7418,7 @@ section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
 </blockquote>
 <footer>Stefan Angelov · Devoxx UK 2026</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
 section.lead { text-align: center; }
 section.lead h1 { font-size: 64px; }
 section.lead h2 { font-size: 40px; }
@@ -7359,9 +7534,126 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;--marpit-advanced-background-split:30%;" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https_github_com_cefothe_devoxx-uk-2026.png&quot;);background-size:280px auto;"></figure></div></section></foreignObject><foreignObject width="70%" height="720"><section id="55" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+" lang="bg-BG" data-marpit-pagination="55" style="--paginate:true;--header:Achieving Microsecond Latencies with Java;--footer:Stefan Angelov · Devoxx UK 2026;--theme:gaia;--style:section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+;--marpit-advanced-background-split:30%;" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <header>Achieving Microsecond Latencies with Java</header>
 <h2 id="resources">Resources</h2>
+
 <p><strong>Code &amp; benchmarks:</strong></p>
 <ul>
 <li>This talk's repo: <a href="https://github.com/cefothe/devoxx-uk-2026">github.com/cefothe/devoxx-uk-2026</a></li>
@@ -7371,15 +7663,193 @@ section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
 <li>Chronicle Queue / Map: <a href="https://chronicle.software">chronicle.software</a></li>
 <li>OpenHFT Affinity: <a href="https://github.com/OpenHFT/Java-Thread-Affinity">github.com/OpenHFT/Java-Thread-Affinity</a></li>
 </ul>
-<p><strong>Reading:</strong></p>
+<footer>Stefan Angelov · Devoxx UK 2026</footer>
+</section>
+</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+" lang="bg-BG" data-marpit-pagination="55" style="" data-marpit-pagination-total="57" data-size="16:9" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-theme="gaia" data-style="section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+" lang="bg-BG" data-marpit-pagination="56" style="--paginate:true;--header:Achieving Microsecond Latencies with Java;--footer:Stefan Angelov · Devoxx UK 2026;--theme:gaia;--style:section { font-size: 28px; }
+section.lead { text-align: center; }
+section.lead h1 { font-size: 64px; }
+section.lead h2 { font-size: 40px; }
+section.dark { background-color: #1a1a2e; color: #e6e6e6; }
+section.dark h1, section.dark h2, section.dark h3 { color: #f5d76e; }
+section.dark a { color: #82aaff; }
+pre { font-size: 18px; }
+code { font-size: 0.85em; }
+section.big-code pre { font-size: 26px; line-height: 1.4; }
+section.big-code pre code { font-size: 26px; }
+table { font-size: 22px; }
+section.big-table table { font-size: 28px; }
+section.big-table th, section.big-table td { padding: 8px 16px; }
+.big-number { font-size: 96px; font-weight: 700; color: #c0392b; }
+.small { font-size: 20px; opacity: 0.75; }
+section.memory-slide .memory-model {
+  display: flex; gap: 18px;
+  background: #b8b8b8; padding: 22px;
+  border-radius: 6px; margin: 18px 0;
+}
+section.memory-slide .mem-region {
+  flex: 1; background: #ffffff;
+  padding: 18px; border-radius: 4px;
+}
+section.memory-slide .mem-region-title {
+  font-weight: 700; font-size: 24px;
+  margin-bottom: 16px; color: #000;
+}
+section.memory-slide .mem-region-content {
+  display: flex; gap: 10px; align-items: stretch;
+}
+section.memory-slide .young-gen {
+  position: relative; display: flex; gap: 6px;
+  padding: 8px 8px 26px 8px;
+  border: 3px solid #c89968; border-radius: 30px;
+}
+section.memory-slide .young-gen-label {
+  position: absolute; bottom: 4px; left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700; font-size: 14px;
+  color: #000; white-space: nowrap;
+}
+section.memory-slide .mem-box {
+  background: #c89968; padding: 24px 12px;
+  border-radius: 3px; min-width: 60px;
+  text-align: center; font-weight: 600;
+  font-size: 16px; color: #000;
+  display: flex; align-items: center;
+  justify-content: center; line-height: 1.2;
+}
+section.memory-slide .old-gen-box { flex: 1; }
+section.ring-buffer-slide h2 { text-align: center; margin-bottom: 24px; }
+section.ring-buffer-slide .rb-grid {
+  display: flex; align-items: center; gap: 40px;
+}
+section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
+section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
+;" data-marpit-pagination-total="57" data-size="16:9">
+<header>Achieving Microsecond Latencies with Java</header>
+<h2 id="further-reading">Further reading</h2>
 <ul>
 <li><em>Java Performance, 2nd ed.</em> — Scott Oaks (O'Reilly)</li>
 <li><em>Mechanical Sympathy</em> blog — Martin Thompson</li>
-<li>The JavaPro Special Edition piece this talk is based on [VERIFY URL]</li>
+<li><em>Achieving microsecond latencies with Java: practical techniques for building ultra‑fast systems</em> — <a href="https://codebefore.eu/blog/achieving-microsecond-latencies-with-java">codebefore.eu/blog/achieving-microsecond-latencies-with-java</a></li>
 </ul>
 <footer>Stefan Angelov · Devoxx UK 2026</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-class="lead" data-theme="gaia" data-style="section { font-size: 28px; }
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-paginate="true" data-header="Achieving Microsecond Latencies with Java" data-footer="Stefan Angelov · Devoxx UK 2026" data-class="lead" data-theme="gaia" data-style="section { font-size: 28px; }
 section.lead { text-align: center; }
 section.lead h1 { font-size: 64px; }
 section.lead h2 { font-size: 40px; }
@@ -7437,7 +7907,7 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-" lang="bg-BG" class="lead" data-marpit-pagination="56" style="--paginate:true;--header:Achieving Microsecond Latencies with Java;--footer:Stefan Angelov · Devoxx UK 2026;--class:lead;--theme:gaia;--style:section { font-size: 28px; }
+" lang="bg-BG" class="lead" data-marpit-pagination="57" style="--paginate:true;--header:Achieving Microsecond Latencies with Java;--footer:Stefan Angelov · Devoxx UK 2026;--class:lead;--theme:gaia;--style:section { font-size: 28px; }
 section.lead { text-align: center; }
 section.lead h1 { font-size: 64px; }
 section.lead h2 { font-size: 40px; }
@@ -7495,12 +7965,13 @@ section.ring-buffer-slide .rb-grid {
 }
 section.ring-buffer-slide .rb-grid img { flex-shrink: 0; width: 480px; }
 section.ring-buffer-slide .rb-grid p { flex: 1; margin: 0; }
-;" data-marpit-pagination-total="56" data-size="16:9">
+;" data-marpit-pagination-total="57" data-size="16:9">
 <header>Achieving Microsecond Latencies with Java</header>
 
 <h1 id="thank-you">Thank you.</h1>
 <h2 id="questions">Questions?</h2>
-<p><strong>Stefan Angelov</strong> · <a href="https://linkedin.com/in/stefanangelov">linkedin.com/in/stefanangelov</a> · <a href="https://github.com/cefothe">github.com/cefothe</a></p>
+<p><strong>Stefan Angelov</strong> · <a href="https://www.linkedin.com/in/stangangelov">linkedin.com/in/stangangelov</a> · <a href="https://github.com/cefothe">github.com/cefothe</a></p>
+<p><img src="https_www_linkedin_com_in_stangangelov_.png" alt="" style="width:220px;" /></p>
 <blockquote>
 <p><em>&quot;The language isn't the limitation. Your understanding of the platform is.&quot;</em></p>
 </blockquote>
@@ -8139,16 +8610,20 @@ Latency improved 5%. Then I actually profiled, and the bottleneck was
 ONE LINE — a synchronized block on a ConcurrentHashMap. The whole
 serialisation week was wasted because I didn't measure first.&quot;
 
-Get the laugh on the war story. Move to resources.</p></div><div class="bespoke-marp-note" data-index="54" tabindex="0"><p>SPEAKER NOTES — Slide 44 (Resources, 29:45):
+Get the laugh on the war story. Move to resources.</p></div><div class="bespoke-marp-note" data-index="54" tabindex="0"><p>SPEAKER NOTES — Resources (~48:30):
 
 Don't read the URLs aloud. The slides will go up. The repo will go up.
 Just point at the categories.
 
-&quot;Code, benchmarks, libraries up top. Reading material at the bottom.
-Scott Oaks's book is the canonical Java perf reference. Martin
-Thompson's blog is the mechanical sympathy gospel.
+&quot;Code, benchmarks, libraries — all on this slide. QR on the right for
+the talk repo. Slides will be on my GitHub by tonight.&quot;</p></div><div class="bespoke-marp-note" data-index="55" tabindex="0"><p>SPEAKER NOTES — Further reading (~49:00):
 
-Slides will be on my GitHub by tonight.&quot;</p></div><div class="bespoke-marp-note" data-index="55" tabindex="0"><p>SPEAKER NOTES — Slide 45 (Q&amp;A, 30:00):
+&quot;Two books and one blog. Scott Oaks's book is the canonical Java perf
+reference. Martin Thompson's blog is the mechanical sympathy gospel —
+that's where I learned half of what's in this deck. And the long-form
+article this talk is based on is up on my blog.&quot;
+
+Quick. 20 seconds.</p></div><div class="bespoke-marp-note" data-index="56" tabindex="0"><p>SPEAKER NOTES — Slide 45 (Q&amp;A, 30:00):
 
 Hard stop on content at 30 minutes. Twenty minutes for Q&amp;A —
 that's generous and intentional.

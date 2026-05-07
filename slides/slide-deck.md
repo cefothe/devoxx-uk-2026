@@ -182,6 +182,8 @@ Don't list every domain — pick the two that match the room.
 
 ## Who am I
 
+![bg right:28% w:260](https_github_com_cefothe_devoxx-uk-2026.png)
+
 - **Stefan Angelov** — Engineering Manager at **Tradu** · Software Architect
 - **10+ years** across fintech & gaming — distributed systems, millions of transactions
 - **5 years** on the trading-system hot path — matching, risk, market data
@@ -1707,6 +1709,8 @@ Get the laugh on the war story. Move to resources.
 
 ## Resources
 
+![bg right:30% w:280](https_github_com_cefothe_devoxx-uk-2026.png)
+
 **Code & benchmarks:**
 - This talk's repo: [github.com/cefothe/devoxx-uk-2026](https://github.com/cefothe/devoxx-uk-2026)
 - exchange-core: [github.com/exchange-core/exchange-core](https://github.com/exchange-core/exchange-core)
@@ -1715,22 +1719,33 @@ Get the laugh on the war story. Move to resources.
 - Chronicle Queue / Map: [chronicle.software](https://chronicle.software)
 - OpenHFT Affinity: [github.com/OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity)
 
-**Reading:**
-- *Java Performance, 2nd ed.* — Scott Oaks (O'Reilly)
-- *Mechanical Sympathy* blog — Martin Thompson
-- The JavaPro Special Edition piece this talk is based on [VERIFY URL]
-
 <!--
-SPEAKER NOTES — Slide 44 (Resources, 29:45):
+SPEAKER NOTES — Resources (~48:30):
 
 Don't read the URLs aloud. The slides will go up. The repo will go up.
 Just point at the categories.
 
-"Code, benchmarks, libraries up top. Reading material at the bottom.
-Scott Oaks's book is the canonical Java perf reference. Martin
-Thompson's blog is the mechanical sympathy gospel.
+"Code, benchmarks, libraries — all on this slide. QR on the right for
+the talk repo. Slides will be on my GitHub by tonight."
+-->
 
-Slides will be on my GitHub by tonight."
+---
+
+## Further reading
+
+- *Java Performance, 2nd ed.* — Scott Oaks (O'Reilly)
+- *Mechanical Sympathy* blog — Martin Thompson
+- *Achieving microsecond latencies with Java: practical techniques for building ultra‑fast systems* — [codebefore.eu/blog/achieving-microsecond-latencies-with-java](https://codebefore.eu/blog/achieving-microsecond-latencies-with-java)
+
+<!--
+SPEAKER NOTES — Further reading (~49:00):
+
+"Two books and one blog. Scott Oaks's book is the canonical Java perf
+reference. Martin Thompson's blog is the mechanical sympathy gospel —
+that's where I learned half of what's in this deck. And the long-form
+article this talk is based on is up on my blog."
+
+Quick. 20 seconds.
 -->
 
 ---
@@ -1741,7 +1756,9 @@ Slides will be on my GitHub by tonight."
 
 ## Questions?
 
-**Stefan Angelov** · [linkedin.com/in/stefanangelov](https://linkedin.com/in/stefanangelov) · [github.com/cefothe](https://github.com/cefothe)
+**Stefan Angelov** · [linkedin.com/in/stangangelov](https://www.linkedin.com/in/stangangelov) · [github.com/cefothe](https://github.com/cefothe)
+
+![w:220](https_www_linkedin_com_in_stangangelov_.png)
 
 > *"The language isn't the limitation. Your understanding of the platform is."*
 
