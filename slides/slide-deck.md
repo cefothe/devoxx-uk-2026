@@ -188,7 +188,7 @@ Don't list every domain — pick the two that match the room.
 - Co-founder of **Hacker4e** — kids' coding academy (Scratch + web)
 - Plovdiv, Bulgaria
 
-**Why listen:** every number on these slides is either from production trading systems I've worked on, or from a JMH benchmark in [github.com/stefanangelov/devoxx-uk-2026-low-latency-java](#) — both are open. [VERIFY repo URL]
+**Why listen:** every number on these slides is either from production trading systems I've worked on, or from a JMH benchmark in [github.com/cefothe/devoxx-uk-2026](https://github.com/cefothe/devoxx-uk-2026) — both are open.
 
 <!--
 SPEAKER NOTES — Slide 3 (About me, 1:00):
@@ -1708,7 +1708,7 @@ Get the laugh on the war story. Move to resources.
 ## Resources
 
 **Code & benchmarks:**
-- This talk's repo: [github.com/stefanangelov/devoxx-uk-2026-low-latency-java](#) [VERIFY]
+- This talk's repo: [github.com/cefothe/devoxx-uk-2026](https://github.com/cefothe/devoxx-uk-2026)
 - exchange-core: [github.com/exchange-core/exchange-core](https://github.com/exchange-core/exchange-core)
 - Agrona: [github.com/real-logic/agrona](https://github.com/real-logic/agrona)
 - LMAX Disruptor: [lmax-exchange.github.io/disruptor](https://lmax-exchange.github.io/disruptor)
@@ -1741,7 +1741,7 @@ Slides will be on my GitHub by tonight."
 
 ## Questions?
 
-**Stefan Angelov** · [linkedin.com/in/stefanangelov](#) · [github.com/stefanangelov](#) [VERIFY both URLs]
+**Stefan Angelov** · [linkedin.com/in/stefanangelov](https://linkedin.com/in/stefanangelov) · [github.com/cefothe](https://github.com/cefothe)
 
 > *"The language isn't the limitation. Your understanding of the platform is."*
 
